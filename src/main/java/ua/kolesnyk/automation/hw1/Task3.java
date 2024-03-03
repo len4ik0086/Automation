@@ -26,7 +26,7 @@ public class Task3 {
     @Test
     public void task3() {
         webDriver.get("https://rozetka.com.ua/");
-        WebElement image = webDriver.findElement(By.xpath("//input[@placeholder='Я ищу...']"));
+        WebElement image = webDriver.findElement(By.xpath("//img[@ alt='Google Play']"));
         Assert.assertTrue(image.isDisplayed(), "Element is not opened successfully");
     }
 }
