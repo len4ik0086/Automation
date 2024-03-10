@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Negative Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/len4i/IdeaProjects/Automation/src/main/java/ua/kolesnyk/automation/hw5">
+        <classes>
+            <class name="ua.kolesnyk.automation.hw5.SearchTests">
+                <methods>
+                    <include name="negativeSearchWithSpecialSymbols"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
