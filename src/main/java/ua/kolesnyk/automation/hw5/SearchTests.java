@@ -10,7 +10,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 
-public class SearchTests extends ua.kolesnyk.practice.l5.BaseTest {
+public class SearchTests extends ua.kolesnyk.example.BaseTest {
     SoftAssert softAssert = new SoftAssert();
 
     @DataProvider(name = "searchValues")
